@@ -31,16 +31,16 @@ function Navbar({ className }: { className?: string }) {
         <MenuItem setActive={setActive} active={active} item="About Us">
           <div className="  text-sm grid grid-cols-2 gap-10 p-4">
             <ProductItem
-              title="Algochurn"
+              title="Motive"
               href="https://algochurn.com"
               src="https://assets.aceternity.com/demos/algochurn.webp"
-              description="Prepare for tech interviews like never before."
+              description="Why did we build this"
             />
             <ProductItem
-              title="Tailwind Master Kit"
+              title="Team"
               href="https://tailwindmasterkit.com"
               src="https://assets.aceternity.com/demos/tailwindmasterkit.webp"
-              description="Production ready Tailwind css components for your next project"
+              description="Our team majorly comprises of two domains- frontend and backend"
             />
             
           </div>
